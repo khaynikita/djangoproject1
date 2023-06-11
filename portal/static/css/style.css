@@ -1,0 +1,132 @@
+/*  all*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --navbar-height: 59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+/* nvbar image */
+#logo{
+    margin: 34px 35px;
+    
+}
+#logo img{
+ margin: 10px 15px;
+ height:70px;
+ width: 70px;
+}
+#navbar ul{
+    display: flex;
+    
+}
+#navbar ul li{
+   list-style: none;
+   font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding:3px 22px;
+    border-radius:20px;
+    text-decoration: none;
+
+}
+#navbar::before{
+    content: " ";
+    background-color:mistyrose;
+    position:absolute;
+    height: 15%;
+    width:100%;
+    z-index:-1;
+    opacity:0.4px
+
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: whitesmoke;
+    
+}
+/* second nav*/
+#navtwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-content: center;
+}
+#navtwo p{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-content: center;
+}
+
+
+#center{
+    background-color: lavender;
+    width: 90%;
+    height: 200px;
+    font-size: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width:80px;
+    align-items: center;
+    
+   
+    background-color:brown;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+      }
+    #button:hover {background-color: #3e8e41}
+
+    #button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+#container{
+        display: flex;
+        
+        align-content: center;
+        justify-content: center;
+    }
+
+#container div{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    
+}
+.box{
+
+    width: 250px;
+    height: 200px;
+    background: lightseagreen;
+    border-radius: 20px;
+    border: 2px solid seagreen;
+    display: flex;
+    
+    
+  }
+
+        

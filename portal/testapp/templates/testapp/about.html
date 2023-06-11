@@ -1,0 +1,49 @@
+{% extends 'testapp/base.html'%}
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static '/css/random.css' %}">
+</head>
+<body>
+    {% block para %}
+    <h4 id="center" >About Us </h4> 
+      {% endblock %} 
+    
+   
+    {% block content %}
+
+            
+    
+    
+       
+        
+        
+        
+            
+             
+          </nav>
+          <table>
+            <tr>
+              <td><img src="{% static 'images/college.jpg' %}" alt="default">
+              </div></td>
+              <td><p>
+                WELCOME TO BCIIT
+    Banarsidas Chandiwala Institute of Information Technology (BCIIT) was established in 1999 to run Master of Computer Application (MCA) programme. The Institute is affiliated with Guru Gobind Singh Indraprastha University( GGSIPU), Delhi for awarding the degree and is approved by the All India Council of Technical Education (AICTE), Ministry of HRD, Government of India.The Institute is established under the aegis of Sri Banarsidas Chandiwala Sewa Smarak Trust Society(SBCSSTS), a charitable Society working in the field of health and education since 1952.
+                Welcome to the Issue 11, Volume 2 of the BCIIT Newsletter 2022. This
+        issue brings out various academic, technical, placements-related and
+        other events occurred during the last six months. It feels a pleasure
+        to introduce you to this latest issue of BCIIT e-Newsletter
+        The Institute is student centric where the faculty members are always alive to the needs of the students and are focussed to develop them to top class software professionals. The Programme Coordinator and mentors monitor the progress of each student. The students go through continuous evaluation for which tests are conducted every Monday. For the personality development the students undergo communication skills, etiquette, and organisation behaviour classes. To develop their competitive skills the students are subjected to debates, quizzes, software development tests, sports and cultural programmes.
+
+The Institute is located in the midst of the business centres of South Delhi, viz., Nehru Place and Okhla Industrial Town in the serene environment of Chandiwala Estate. The location makes a perfect fit from IT perspective with Nehru Place as hardware hub and Okhla as software hub of Delhi.
+            </p></td>
+            </tr>
+          </table>
+    {% endblock %}
+</body>
+</html>

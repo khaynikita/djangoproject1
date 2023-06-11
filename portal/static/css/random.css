@@ -1,0 +1,57 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --navbar-height: 59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* nvbar image */
+#logo{
+    margin: 34px 35px;
+    
+}
+#logo img{
+ margin: 10px 15px;
+ height:70px;
+ width: 70px;
+}
+
+
+       
+
+#navbar::before{
+    content: " ";
+    background-color:lightcoral;
+    position:absolute;
+    height: 15%;
+    width:100%;
+    z-index:-1;
+    opacity: 0.4px;
+}
+
+
+
+.img{
+    height:400x;
+    width:400px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: center;
+
+}  
+#random{
+    display: flex;
+    align-items: center;
+} 
+#random p{
+    display: flex;
+
+}

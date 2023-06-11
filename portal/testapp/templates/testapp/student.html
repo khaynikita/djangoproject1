@@ -1,0 +1,57 @@
+{% extends 'testapp/base.html'%}
+{%  load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" {% static '/css/student.css' %}">
+</head>
+<body>
+    {% block para %}
+    <h4 id="center" >Student News</h4> 
+      {% endblock %} 
+    
+    {% block content %}
+           
+        
+    </nav>
+    <section class="alto">
+
+        <div id="container">
+            <div class="box">
+                <h1>BHAWNA NEGI</h1>
+                <img class="img"src="{% static 'images/BW.jpg' %}" alt="default">
+            
+            
+               
+                
+    
+            </div>
+            <div class="box">
+                <h1>PREETI JAISWAL</h1>
+                <img class="img"src="{% static 'images/PJ.jpg' %}" alt="default">
+            
+          
+                
+    
+            </div>
+            <div class="box">
+                <h1>AKANSHA KATHYAT</h1>
+                <img class="img"src="{% static 'images/AK.jpg' %}" alt="default">
+
+            
+             
+                
+    
+            </div>
+            
+        </div>
+        
+    </section>
+  
+            
+{% endblock %}
